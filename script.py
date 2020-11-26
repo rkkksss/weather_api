@@ -1,8 +1,8 @@
 import requests
 from requests.exceptions import HTTPError as error
 
-cities = ['Лондон','Шереметьево','Череповец']
-payload = {'n':'', 'T':'', 'q':'', 'u':'', 'm':'', 'lang':'ru'}
+cities = ['Лондон', 'Шереметьево', 'Череповец']
+payload = {'n': '', 'T': '', 'q': '', 'u': '', 'm': '', 'lang': 'ru'}
 
 
 for city in cities:
