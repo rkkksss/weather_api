@@ -1,8 +1,15 @@
 import requests
+from requests.exceptions import HTTPError as error
 
-cities = ['London', 'Sheremetyevo', 'Cherepovets']
-settings = {'m': '', 'n': '', 'T': '', 'q': '', 'lang': 'ru'}
-url_template = 'https://wttr.in/{}'
+cities = ['Лондон','Шереметьево','Череповец']
+payload = {'n':'', 'T':'', 'q':'', 'u':'', 'm':'', 'lang':'ru'}
+
+
 for city in cities:
-  response = requests.get(url_template.format(city), settings)
-  print(response.text)
+    url = 'http://wttr.in/{}'.format(city)
+    response = requests.get(url, params=payload)
+    try:
+        response.raise_for_status()
+        print(response.text)
+    except error:
+        print(f'Прогноз недоступен, код ошибки: {error}')
