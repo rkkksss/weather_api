@@ -11,15 +11,13 @@ This script allows you to view the weather forecast for the next three days for 
 
 ## Example
 
-`Прогноз погоды: Лондон
+```Прогноз погоды: Лондон
 
       \   /     Солнечно
        .-.      8..9 °C        
     ― (   ) ―   ↓ 0 km/h       
        `-’      10 km          
       /   \     0.0 mm 
-  `
-  `
                         ┌─────────────┐                        
 ┌───────────────────────┤ Чт. 26 нояб.├───────────────────────┐
 │             День      └──────┬──────┘       Ночь            │
@@ -32,4 +30,4 @@ This script allows you to view the weather forecast for the next three days for 
 └──────────────────────────────┴──────────────────────────────┘
 Местоположение: London, Greater London, England, UK [51.5073219,-0.1276473]
 
-Все новые фичи публикуются здесь: @igor_ch`
+Все новые фичи публикуются здесь: @igor_ch```
