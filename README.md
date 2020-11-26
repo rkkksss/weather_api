@@ -17,7 +17,9 @@ This script allows you to view the weather forecast for the next three days for 
        .-.      8..9 °C        
     ― (   ) ―   ↓ 0 km/h       
        `-’      10 km          
-      /   \     0.0 mm         
+      /   \     0.0 mm 
+  `
+  `
                         ┌─────────────┐                        
 ┌───────────────────────┤ Чт. 26 нояб.├───────────────────────┐
 │             День      └──────┬──────┘       Ночь            │
